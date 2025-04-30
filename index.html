@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Connect with D.Y. Patil College</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #1e2d50;
+      color: white;
+      padding: 50px 20px;
+      position: relative;
+      min-height: 100vh;
+      height: auto;
+      /* ✅ Removed overflow: hidden to allow scrolling */
+    }
+
+    body::before {
+      content: "";
+      background: url('CAMPUS.jpg') no-repeat center center;
+      background-size: 2000px;
+      opacity: 0.20;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      pointer-events: none; /* ✅ Let scroll & taps pass through */
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .logo {
+      width: 200px;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 15px;
+      padding: 15px 25px;
+      font-size: 18px;
+      color: white;
+      background-color: #214a85;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: transform 0.2s, background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #3566b4;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <img class="logo" src="DYPCET logo.jpg" alt="DYPCET Logo">
+    <h1>Award for the Best Performing College on Social Media in the Western Region.</h1>
+    <p><b>🎓 D.Y. Patil College of Engineering & Technology</b></p>
+    <p>Support our college by reviewing, following, and subscribing to our official channels!</p>
+
+    <a class="btn" href="https://www.google.com/maps/place/D.+Y.+Patil+College+Of+Engineering+%26+Technology/@16.7320901,74.237955,17z/data=!4m8!3m7!1s0x3bc1008d2532b153:0xa154d05f5c9250ae!8m2!3d16.7320901!4d74.2405299!9m1!1b1!16s%2Fm%2F0279_5k?entry=ttu&g_ep=EgoyMDI1MDQyNy4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" target="_blank">⭐ Google Reviews</a><br>
+
+    <a class="btn" href="https://www.instagram.com/dypcet_official/?hl=en" target="_blank">📸 Instagram</a><br>
+
+    <a class="btn" href="https://www.youtube.com/@dypcetofficial" target="_blank">▶️ YouTube</a><br>
+
+    <a class="btn" href="https://www.facebook.com/dypcetkolhapur/" target="_blank">📘 Facebook</a><br>
+
+    <footer>
+      &copy; 2025 D. Y. Patil College of Engineering and Technology. All Rights Reserved.
+    </footer>
+  </div>
+</body>
+</html>
